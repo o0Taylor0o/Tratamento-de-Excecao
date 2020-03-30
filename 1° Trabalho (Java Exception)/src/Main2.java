@@ -17,10 +17,10 @@ import java.util.Random;
 			
 			System.out.println("Escolha a cor do primeiro robo.");
 			cor1 = scan.next();
-			Robo r2 = new Robo(cor1);
+			Robo r2 = new Robo(cor1, 0, 0);
 			System.out.println("Escolha a cor do segundo robo.");
 			cor2 = scan.next();
-			Robo r3 = new Robo(cor2);
+			Robo r3 = new Robo(cor2, 0, 0);
 			
 			System.out.println("Determine a posicao do alimento no eixo X: ");
 			alimentoX = scan.nextInt();
