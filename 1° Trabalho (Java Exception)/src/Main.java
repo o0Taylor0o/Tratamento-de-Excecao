@@ -13,7 +13,7 @@ public class Main {
 		
 		System.out.println("Escolha a cor do robo.");
 		cor = scan.next();
-		Robo r1 = new Robo(cor);
+		Robo r1 = new Robo(cor, 0, 0);
 		
 		System.out.println("Determine a posicao do alimento no eixo X: ");
 		alimentoX = scan.nextInt();
