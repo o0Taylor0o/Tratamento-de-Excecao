@@ -4,7 +4,7 @@
 | ALUNO                            |      MATRÍCULA      |
 |----------------------------------|:-------------------:|
 | JAMES TAYLOR PIRES BEZERRA       |       1515009       |
-| GERARDO RODRIGURES CARNEIRO FILHO|       1509022       |
+| GERARDO RODRIGURES CARNEIRO FILHO|       1514955       |
 
 
 ### EXECUÇÕES:
