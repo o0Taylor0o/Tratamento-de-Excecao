@@ -10,8 +10,8 @@
 ### EXECUÇÕES:
 
 * Main.java --> Robô é movimentado de forma manual pelo usuário.
-* Main2.java --> Dois Robôs se movimentam randomicamente para achar o alimento.
-* Main3.java --> 
+* Main2.java --> Dois robôs se movimentam randomicamente para achar o alimento.
+* Main3.java --> Dois robôs( um normal e outro inteligente) em busca do alimento.
 * MovimentoInvalidoException.java --> Criação e tratamento da execeção.
-* Robo.java --> 
-* RoboInteligente.java -->
+* Robo.java --> Criação do robo e seus movimentos.
+* RoboInteligente.java --> Criação da automação do robo inteligente.
