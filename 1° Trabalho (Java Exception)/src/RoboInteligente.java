@@ -1,13 +1,7 @@
 
 	public class RoboInteligente extends Robo{
-		protected String cor;
-		protected int eixoX;
-		protected int eixoY;
-		
-		public RoboInteligente(String cor) {
-			super(cor);
-			eixoX = 0;
-			eixoY = 0;
+		public RoboInteligente(String cor, int eixoX, int eixoY) {
+			super(cor, eixoX, eixoY);
 		}
 		
 		public void mover(int movimento) throws MovimentoInvalidoException{
