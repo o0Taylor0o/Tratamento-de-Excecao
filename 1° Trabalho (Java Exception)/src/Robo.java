@@ -39,7 +39,7 @@
 		}
 		
 		public void posicaoInteligente(String cor) {
-			System.out.println("Robo inteligente de " + cor + " esta na posicao " + eixoX + " no eixo X e na posicao " + eixoY + " no eixo Y.");
+			System.out.println("Robo inteligente de cor " + cor + " esta na posicao " + eixoX + " no eixo X e na posicao " + eixoY + " no eixo Y.");
 		}
 
 		public void mover(int movimento) throws MovimentoInvalidoException{
