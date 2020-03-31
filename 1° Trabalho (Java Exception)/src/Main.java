@@ -1,6 +1,5 @@
-
 import java.util.Scanner;
-import java.util.Random;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -15,9 +14,9 @@ public class Main {
 		cor = scan.next();
 		Robo r1 = new Robo(cor, 0, 0);
 		
-		System.out.println("Determine a posicao do alimento no eixo X: ");
+		System.out.println("Determine a posicao do alimento no eixo X em ate 4 casas: ");
 		alimentoX = scan.nextInt();
-		System.out.println("Determine a posicao do alimento no eixo Y: ");
+		System.out.println("Determine a posicao do alimento no eixo Y em ate 4 casas: ");
 		alimentoY = scan.nextInt();
 		
 		System.out.println("Comando de movimentos:");
@@ -41,7 +40,7 @@ public class Main {
 				}catch(MovimentoInvalidoException e) {
 					System.out.println();
 					System.out.println("Movimento invalido.");
-					System.out.println("Faca outro movimento.");
+					System.out.println("Faça outro movimento.");
 				}catch(ArrayIndexOutOfBoundsException e ) {
 					System.out.println("Numero de casas ultrapassadas.");
 				}
@@ -50,10 +49,4 @@ public class Main {
 				System.out.println("O Robo achou o alimento fazendo " + aux1 + " movimentos.");
 				
 	}
-	}
-	
-
-
-	
-
-
+}
