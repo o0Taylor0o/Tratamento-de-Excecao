@@ -22,16 +22,16 @@ import java.util.Random;
 		cor2 = scan.next();
 		Robo r3 = new Robo(cor2, 0, 0);
 		
-		System.out.println("Determine a posicao do alimento no eixo X: ");
+		System.out.println("Determine a posicao do alimento no eixo X em ate 4 casas: ");
 		alimentoX = scan.nextInt();
-		System.out.println("Determine a posicao do alimento no eixo Y: ");
+		System.out.println("Determine a posicao do alimento no eixo Y em ate 4 casas: ");
 		alimentoY = scan.nextInt();
 		
 			do {
 				i = r.nextInt(4)+1; 
 				try {
 					System.out.println();
-					System.out.println("Comando: " + i);
+					System.out.println("Comando para o robo "+ cor1 + " : " + i);
 					r2.mover(i);
 					aux1 ++;
 					r2.posicao2();
@@ -50,7 +50,7 @@ import java.util.Random;
 				j = r.nextInt(4)+1;
 				try {
 					System.out.println();
-					System.out.println("Comando: " + j);
+					System.out.println("Comando para o robo "+ cor2 + " : " + j);
 					r3.mover(j);
 					aux2 ++;
 					r3.posicao3();
