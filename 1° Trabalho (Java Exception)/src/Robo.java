@@ -1,10 +1,13 @@
+import java.util.Random;
 
 
-	public class Robo {
-		protected  String cor;
-		protected int eixoX = 0;
-		protected int eixoY = 0;
-		char m[][], m1[][];
+public class Robo {
+	protected  String cor;
+	protected int eixoX = 0;
+	protected int eixoY = 0;
+	char m[][], m1[][];
+	int i;
+	Random r = new Random();
 	
 		public Robo(String cor, int eixoX, int eixoY) {
 			this.cor = cor;
@@ -113,4 +116,4 @@
 			}
 		}
 
-	}
+}
